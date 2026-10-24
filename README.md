@@ -17,7 +17,7 @@ Open these Markdown files to read the questions and answers directly on GitHub:
 
 GitHub may download `.docx` files rather than preview them. The editable Word versions are available in the [`docs/`](docs/) folder:
 
-- [Full 60-question DOCX](docs/SQL_Interview_Preparation_Full 60-question.docx)
+- [Full 60-question DOCX](docs/SQL_Interview_Preparation_Full_60-Questions_Answers.docx)
 
 ## Suggested study method
 
