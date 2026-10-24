@@ -1,0 +1,74 @@
+TOP 60 SQL INTERVIEW QUESTIONS
+Questions only — grouped by level
+
+LEVEL 1 — SQL FUNDAMENTALS
+1. What is SQL, and what is it used for?
+2. What is the difference between SQL and MySQL?
+3. What are the different types of SQL commands (DDL, DML, DQL, DCL, and TCL)?
+4. What is the difference between a primary key and a unique key?
+5. What is a foreign key, and why is it used?
+6. What is the difference between WHERE and HAVING?
+7. What is the difference between DELETE, TRUNCATE, and DROP?
+8. What is the difference between CHAR and VARCHAR?
+9. What is NULL in SQL, and how is it different from zero or an empty string?
+10. What is the purpose of DISTINCT in a SELECT query?
+
+LEVEL 2 — FILTERING, SORTING, AND FUNCTIONS
+11. What is the difference between IN and BETWEEN?
+12. What is the difference between LIKE and the equality operator (=)?
+13. How do AND, OR, and NOT work in a WHERE clause?
+14. What is the purpose of ORDER BY, and how do you sort in descending order?
+15. What are aggregate functions in SQL? Explain COUNT, SUM, AVG, MIN, and MAX.
+16. What is the difference between COUNT(*) and COUNT(column_name)?
+17. How do you handle NULL values using IS NULL, IS NOT NULL, and COALESCE?
+18. What is the difference between a single-row function and an aggregate function?
+19. How do you extract the year or month from a date in SQL?
+20. How do you use CASE WHEN in a SQL query?
+
+LEVEL 3 — GROUPING AND JOINS
+21. What is GROUP BY, and why is it used?
+22. What is the difference between WHERE and HAVING when filtering grouped data?
+23. What is an INNER JOIN?
+24. What is the difference between INNER JOIN and LEFT JOIN?
+25. What is the difference between LEFT JOIN and RIGHT JOIN?
+26. What is a FULL OUTER JOIN, and how can it be simulated in MySQL?
+27. What is a CROSS JOIN?
+28. What is a SELF JOIN, and when would you use it?
+29. What is the difference between UNION and UNION ALL?
+30. How do you find rows in one table that have no matching rows in another table?
+
+LEVEL 4 — SUBQUERIES AND CTEs
+31. What is a subquery, and what types of subqueries can you use?
+32. What is the difference between a correlated and a non-correlated subquery?
+33. What is the difference between EXISTS and IN?
+34. What is the difference between EXISTS and JOIN?
+35. What is a Common Table Expression (CTE)?
+36. What is the difference between a CTE and a subquery?
+37. What is a recursive CTE, and when might it be useful?
+38. What is the difference between ANY and ALL in SQL?
+39. What is a view, and how is it different from a table?
+40. What is a stored procedure, and how is it different from a function?
+
+LEVEL 5 — WINDOW FUNCTIONS AND QUERY CHALLENGES
+41. What is a window function, and how is it different from an aggregate function?
+42. What is the purpose of the OVER() clause in a window function?
+43. What is the difference between ROW_NUMBER(), RANK(), and DENSE_RANK()?
+44. What is PARTITION BY, and how is it different from GROUP BY?
+45. How do you find the second-highest salary in a table?
+46. How do you find the top three highest-paid employees in each department?
+47. How do you identify duplicate records in a table?
+48. How do you delete duplicate records while keeping one copy?
+49. How do you calculate a running total using a window function?
+50. How do you find the highest salary in each department and return the employee details?
+
+LEVEL 6 — DESIGN, DATA QUALITY, AND PERFORMANCE
+51. What is database normalization, and why is it important?
+52. What are the differences between First Normal Form (1NF), Second Normal Form (2NF), and Third Normal Form (3NF)?
+53. What is Boyce-Codd Normal Form (BCNF)?
+54. What are insertion, update, and deletion anomalies in a database?
+55. What is denormalization, and when might it be useful?
+56. What is an index, and how can it improve query performance?
+57. What are the disadvantages of creating too many indexes?
+58. What is a transaction, and what do COMMIT, ROLLBACK, and SAVEPOINT do?
+59. What are ACID properties in a database transaction?
+60. How would you investigate and improve a slow SQL query?
